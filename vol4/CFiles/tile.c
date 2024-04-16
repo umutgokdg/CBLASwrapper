@@ -22,8 +22,8 @@
 #include <stdio.h>
 #include <assert.h>
 
-#include <defbool.h>
-#include <clblas_stddef.h>
+#include "../HFiles/defbool.h"
+#include "../HFiles/clblas_stddef.h"
 
 #include "../HFiles/blas_kgen.h"
 

@@ -15,7 +15,7 @@
  * ************************************************************************/
 
 
-#include <rwlock.h>
+#include "../HFiles/rwlock.h"
 
 #if defined(_MSC_VER)
 

@@ -18,11 +18,12 @@
 #include "../HFiles/clBLAS.h"
 #include "../HFiles/toolslib.h"
 #include "../HFiles/kern_cache.h"
-#include "../HFiles/clBLAS.version.h"
+#include "../HFiles/clBLAS.version.h.in"
+#include "../HFiles/clBLAS.h"
 #include "../HFiles/trace_malloc.h"
 
-#include "clblas-internal.h"
-#include <events.h>
+#include "../HFiles/clblas-internal.h"
+#include "../HFiles/events.h"
 #include <stdlib.h>
 #include <stdio.h>
 #ifdef BUILDING_CLBLAS
@@ -33,9 +34,9 @@
 clblasStatus
 clblasGetVersion(cl_uint* major, cl_uint* minor, cl_uint* patch)
 {
-    *major = clblasVersionMajor;
-    *minor = clblasVersionMinor;
-    *patch = clblasVersionPatch;
+    // *major = clblasVersionMajor;
+    // *minor = clblasVersionMinor;
+    // *patch = clblasVersionPatch;
 
     return clblasSuccess;
 }

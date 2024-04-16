@@ -23,13 +23,13 @@
 #include <stdio.h>
 #include <assert.h>
 #include <stdlib.h>
-#include <clblas_stddef.h>
-#include <clBLAS.h>
-#include <blas_mempat.h>
-#include <clkern.h>
-#include <clblas-internal.h>
-#include <matrix_props.h>
-#include <matrix_dims.h>
+#include "../HFiles/clblas_stddef.h"
+#include "../HFiles/clBLAS.h"
+#include "../HFiles/blas_mempat.h"
+#include "../HFiles/clkern.h"
+#include "../HFiles/clblas-internal.h"
+#include "../HFiles/matrix_props.h"
+#include "../HFiles/matrix_dims.h"
 
 #include "../HFiles/dblock_kgen.h"
 #include "../HFiles/kerngen.h"

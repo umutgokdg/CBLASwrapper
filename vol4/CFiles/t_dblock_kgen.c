@@ -34,8 +34,8 @@
 #include <string.h>
 #include <assert.h>
 
-#include <clkern.h>
-#include <dblock_kgen.h>
+#include "../HFiles/clkern.h"
+#include "../HFiles/dblock_kgen.h"
 
 #define MAX(a, b)           ((b) > (a)) ? (b) : (a)
 #define ARRAY_LENGTH(ar)    sizeof((ar)) / sizeof((ar)[0])

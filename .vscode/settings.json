@@ -37,6 +37,9 @@
         "trace_malloc.h": "c",
         "blas_mempat.h": "c",
         "toolslib.h": "c",
-        "kern_cache.h": "c"
+        "kern_cache.h": "c",
+        "stdlib.h": "c",
+        "events.h": "c",
+        "subdim.h": "c"
     }
 }

@@ -15,7 +15,7 @@
  * ************************************************************************/
 
 
-#include <matrix_dims.h>
+#include "../HFiles/matrix_dims.h"
 
 static __inline bool
 isRightSide(BlasFunctionID funcID, clblasSide side)

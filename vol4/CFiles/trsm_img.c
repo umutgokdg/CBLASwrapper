@@ -34,7 +34,7 @@
 #include "../HFiles/trsm_kgen_legacy.h"
 #include "../HFiles/gen_helper.h"
 #include "../HFiles/trsm_kgen.h"
-#include <dis_warning.h>
+#include "../HFiles/dis_warning.h"
 
 static const char *trsmImDecl =
     "__attribute__((reqd_work_group_size(%lu, %lu, 1)))\n"

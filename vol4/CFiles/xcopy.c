@@ -19,9 +19,8 @@
 
 #include <stdio.h>
 #include <string.h>
-#include <clBLAS.h>
-
-#include <devinfo.h>
+#include "../HFiles/clBLAS.h"
+#include "../HFiles/devinfo.h"
 #include "../HFiles/clblas-internal.h"
 #include "../HFiles/solution_seq.h"
 

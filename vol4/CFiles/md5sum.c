@@ -41,7 +41,7 @@
 #include <stdlib.h>
 #include <stdio.h>
  
-#include <md5sum.h>
+#include "../HFiles/md5sum.h"
  
 /*
  * The basic MD5 functions.

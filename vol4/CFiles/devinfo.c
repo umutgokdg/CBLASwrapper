@@ -18,14 +18,13 @@
 #if defined(__APPLE__) || defined(__MACOSX)
 #include <OpenCL/cl.h>
 #else
-#include <CL/cl.h>
+#include "../HFiles/cl.h"
 #endif
 
 #include <stdlib.h>
 #include <string.h>
-#include <defbool.h>
-
-#include <devinfo.h>
+#include "../HFiles/defbool.h"
+#include "../HFiles/devinfo.h"
 
 static DeviceVendor
 stringToVendor(const char *str)

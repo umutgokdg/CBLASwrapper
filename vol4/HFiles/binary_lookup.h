@@ -18,9 +18,9 @@
 #define __CLBLAS_BINARY_LOOKUP__
 
 #if defined(__APPLE__) || defined(__MACOSX)
-#include "cl.h"
+#include <OpenCL/cl.h>
 #else
-#include "cl.h"
+#include <CL/cl.h>
 #endif
 
 #include <string>

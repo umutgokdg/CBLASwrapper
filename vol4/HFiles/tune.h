@@ -15,47 +15,29 @@
  * ************************************************************************/
 
 
+#ifndef TOOLS_H__
+#define TOOLS_H__
+
+#include "../HFiles/clblas-internal.h"
 #include "../HFiles/cltypes.h"
+#include "../HFiles/kern_cache.h"
+#include "../HFiles/granulation.h"
+#include "../HFiles/kernel_extra.h"
 
-unsigned int
-dtypeSize(DataType type)
-{
-    size_t ret;
+#include "../HFiles/blas_mempat.h"
 
-    switch (type) {
-    case TYPE_FLOAT:
-        ret = sizeof(cl_float);
-        break;
-    case TYPE_DOUBLE:
-        ret = sizeof(cl_double);
-        break;
-    case TYPE_COMPLEX_FLOAT:
-        ret = sizeof(cl_float2);
-        break;
-    case TYPE_COMPLEX_DOUBLE:
-        ret = sizeof(cl_double2);
-        break;
-    case TYPE_UNSIGNED_INT:// For iAMAX
-        ret = sizeof(cl_uint);
-        break;
-    default:
-        ret = (size_t)-1;
-        break;
-    }
+#include "../HFiles/storage_data.h"
 
-    return (unsigned int)ret;
-}
+extern const char *FileID;
+extern const char *FileExt;
+extern const char *ENV_FILE_PATH;
 
-size_t
-fl4RowWidth(size_t width, size_t typeSize)
-{
-    size_t s;
+struct SubDimInfo;
 
-    s = width / (sizeof(cl_float4) / typeSize);
-    if (s * (sizeof(cl_float4) / typeSize) != width) {
-        s++;
-    }
 
-    return s;
-}
+void     initMask(unsigned int* mask);
+char*    getDevName(TargetDevice* devId);
+void     initCLDeviceInfoRec(TargetDevice* devID, DeviceInfo *devInfo);
+
+#endif /* TOOLS_H__ */
 

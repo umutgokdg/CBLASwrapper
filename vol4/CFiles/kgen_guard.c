@@ -18,9 +18,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <kerngen.h>
-#include <list.h>
-#include <dis_warning.h>
+#include "../HFiles/kerngen.h"
+#include "../HFiles/list.h"
+#include "../HFiles/dis_warning.h"
 
 typedef struct FuncNode {
     void *pattern;

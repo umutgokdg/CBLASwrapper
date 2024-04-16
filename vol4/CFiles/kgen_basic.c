@@ -22,8 +22,8 @@
 #include <stdarg.h>
 #include <assert.h>
 
-#include <kerngen.h>
-#include <mempat.h>
+#include "../HFiles/kerngen.h"
+#include "../HFiles/mempat.h"
 
 const char *uptrsFullDeclaration =
     "#ifdef cl_khr_fp64\n"

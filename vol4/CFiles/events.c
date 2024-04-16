@@ -16,10 +16,9 @@
 
 
 #include <stdlib.h>
-#include <clBLAS.h>
-
-#include <mutex.h>
-#include <events.h>
+#include "../HFiles/clBLAS.h"
+#include "../HFiles/mutex.h"
+#include "../HFiles/events.h"
 
 static const size_t ALLOCATION_STEP = 100;
 

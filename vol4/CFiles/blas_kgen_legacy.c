@@ -24,12 +24,11 @@
 #include <stdio.h>
 #include <assert.h>
 
-#include <list.h>
-#include <clblas_stddef.h>
-
-#include <matrix_props.h>
-#include <matrix_dims.h>
-#include <dis_warning.h>
+#include "../HFiles/list.h"
+#include "../HFiles/clblas_stddef.h"
+#include "../HFiles/matrix_props.h"
+#include "../HFiles/matrix_dims.h"
+#include "../HFiles/dis_warning.h"
 
 #include "../HFiles/blas_kgen_legacy.h"
 
