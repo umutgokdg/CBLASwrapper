@@ -22,9 +22,9 @@
 #include <map>
 #include <boost/program_options.hpp>
 
-#include <clBLAS.h>
-#include <clblas-internal.h>
-#include <blas_funcs.h>
+#include "clBLAS.h"
+#include "clblas-internal.h"
+#include "blas_funcs.h"
 
 #include "ktest-common.h"
 

@@ -14,18 +14,18 @@
  * limitations under the License.
  * ************************************************************************/
 
-#include "../HFiles/blas_subgroup.h"
+#include "blas_subgroup.h"
 #include <stdio.h>
-#include "../HFiles/clblas_stddef.h"
+#include <clblas_stddef.h>
 
-#include "../HFiles/matrix_props.h"
-#include "../HFiles/matrix_dims.h"
-#include "../HFiles/dis_warning.h"
+#include <matrix_props.h>
+#include <matrix_dims.h>
+#include <dis_warning.h>
 
-#include "../HFiles/blas_kgen.h"
-#include "../HFiles/gen_helper.h"
-#include "../HFiles/tile_iter.h"
-#include "../HFiles/kerngen.h"
+#include "blas_kgen.h"
+#include "gen_helper.h"
+#include "tile_iter.h"
+#include "kerngen.h"
 
 static int
 calcMergeStepSubgrN(

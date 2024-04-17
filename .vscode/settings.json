@@ -40,6 +40,7 @@
         "kern_cache.h": "c",
         "stdlib.h": "c",
         "events.h": "c",
-        "subdim.h": "c"
+        "subdim.h": "c",
+        "fstream": "cpp"
     }
 }

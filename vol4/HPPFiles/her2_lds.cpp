@@ -22,14 +22,14 @@
 #include <string.h>
 #include <stdio.h>
 #include <assert.h>
-#include "../HFiles/clblas_stddef.h"
-#include "../HFiles/clBLAS.h"
-#include "../HFiles/blas_mempat.h"
-#include "../HFiles/clkern.h"
-#include "../HFiles/clblas-internal.h"
-#include "../HFiles/blas_kgen.h"
+#include <clblas_stddef.h>
+#include <clBLAS.h>
+#include <blas_mempat.h>
+#include <clkern.h>
+#include <clblas-internal.h>
+#include "blas_kgen.h"
 
-#include "../HPPFiles/kprintf.hpp"
+#include <kprintf.hpp>
 #include <syr2_her2.clT>
 #include <solution_seq.h>
 

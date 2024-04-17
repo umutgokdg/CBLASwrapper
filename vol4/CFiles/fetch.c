@@ -41,11 +41,11 @@
 #include <stdlib.h>
 #include <assert.h>
 
-#include "../HFiles/clblas_stddef.h"
-#include "../HFiles/solution_seq.h"
-#include "../HFiles/trace_malloc.h"
+#include <clblas_stddef.h>
+#include <solution_seq.h>
+#include <trace_malloc.h>
 
-#include "../HFiles/blas_kgen.h"
+#include "blas_kgen.h"
 
 #define MAX_LENGTH 4096
 #define BITS_INT (sizeof(int) * 8)

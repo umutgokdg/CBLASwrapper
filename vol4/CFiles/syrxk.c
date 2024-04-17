@@ -24,20 +24,20 @@
 #include <stdlib.h>
 #include <assert.h>
 
-#include "../HFiles/clBLAS.h"
-#include "../HFiles/clblas_stddef.h"
-#include "../HFiles/blas_mempat.h"
-#include "../HFiles/solution_seq.h"
-#include "../HFiles/clkern.h"
-#include "../HFiles/clblas-internal.h"
-#include "../HFiles/matrix_dims.h"
-#include "../HFiles/dis_warning.h"
+#include <clBLAS.h>
+#include <clblas_stddef.h>
+#include <blas_mempat.h>
+#include <solution_seq.h>
+#include <clkern.h>
+#include <clblas-internal.h>
+#include <matrix_dims.h>
+#include <dis_warning.h>
 
-#include "../HFiles/init.h"
-#include "../HFiles/blas_kgen.h"
-#include "../HFiles/gen_helper.h"
-#include "../HFiles/blas_subgroup.h"
-#include "../HFiles/tile_iter.h"
+#include "init.h"
+#include "blas_kgen.h"
+#include "gen_helper.h"
+#include "blas_subgroup.h"
+#include "tile_iter.h"
 
 /*
  * Priority within a statement batch of different kind

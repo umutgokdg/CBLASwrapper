@@ -2,7 +2,7 @@
 #ifndef TRTRI_SOURCE_INCLUDES_H
 #define TRTRI_SOURCE_INCLUDES_H
 #include <cstddef>
-#include "TrtriKernelSourceIncludes.cpp"
+#include "../CPPFiles/TrtriKernelSourceIncludes.cpp"
 
 //**** compiler flags
 //**** online compilation flags

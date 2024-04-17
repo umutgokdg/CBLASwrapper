@@ -2,9 +2,9 @@
 #ifndef TRTRI_CL_KERNELS_H
 #define TRTRI_CL_KERNELS_H
 #if defined( __APPLE__ ) || defined ( __MACOS )
-#include <OpenCL/cl.h>
+#include "cl.h"
 #else
-#include "CL/cl.h"
+#include "cl.h"
 #endif
 
 /*mod 192 dtrsm*/

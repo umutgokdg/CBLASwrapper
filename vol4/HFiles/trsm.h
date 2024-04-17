@@ -18,7 +18,7 @@
 #ifndef KTEST_TRSM_H__
 #define KTEST_TRSM_H__
 
-#include "../step.h"
+#include "step.h"
 
 namespace clMath {
 

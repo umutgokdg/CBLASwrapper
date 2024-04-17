@@ -17,10 +17,10 @@
 
 #include <stdio.h>
 
-#include "../HFiles/matrix_props.h"
-#include "../HFiles/matrix_dims.h"
+#include <matrix_props.h>
+#include <matrix_dims.h>
 
-#include "../HFiles/trxm_common.h"
+#include "trxm_common.h"
 
 void
 declareTrxmKernel(

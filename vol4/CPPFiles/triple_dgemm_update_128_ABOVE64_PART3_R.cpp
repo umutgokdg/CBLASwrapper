@@ -14,6 +14,8 @@
 #define STRINGIFY(...) STRINGIFY2(__VA_ARGS__)
 #endif
 
+#include <cstddef>
+
 unsigned char *triple_dgemm_update_128_ABOVE64_PART3_R_bin = 0;
 size_t triple_dgemm_update_128_ABOVE64_PART3_R_binSize = 0;
 

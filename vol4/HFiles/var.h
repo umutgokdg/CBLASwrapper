@@ -19,9 +19,9 @@
 #define KTEST_VAR_H__
 
 #ifdef __APPLE__
-#include <OpenCL/cl.h>
+#include "cl.h"
 #else
-#include <CL/cl.h>
+#include "cl.h"
 #endif
 #include <string>
 

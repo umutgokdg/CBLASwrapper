@@ -23,21 +23,21 @@
 #include <stdio.h>
 #include <assert.h>
 #include <stdlib.h>
-#include "../HFiles/clblas_stddef.h"
-#include "../HFiles/clBLAS.h"
-#include "../HFiles/blas_mempat.h"
-#include "../HFiles/clkern.h"
-#include "../HFiles/clblas-internal.h"
-#include "../HFiles/matrix_props.h"
-#include "../HFiles/matrix_dims.h"
+#include <clblas_stddef.h>
+#include <clBLAS.h>
+#include <blas_mempat.h>
+#include <clkern.h>
+#include <clblas-internal.h>
+#include <matrix_props.h>
+#include <matrix_dims.h>
 
-#include "../HFiles/dblock_kgen.h"
-#include "../HFiles/kerngen.h"
-#include "../HFiles/blas_kgen.h"
-#include "../HFiles/gen_helper.h"
-#include "../HFiles/trxm_common.h"
-#include "../HFiles/trsm_kgen.h"
-#include "../HFiles/blas_kgen_legacy.h"
+#include "dblock_kgen.h"
+#include "kerngen.h"
+#include "blas_kgen.h"
+#include "gen_helper.h"
+#include "trxm_common.h"
+#include "trsm_kgen.h"
+#include "legacy/blas_kgen_legacy.h"
 
 typedef enum LdsUseFlags {
     LDS_NO_USE = 0,

@@ -22,10 +22,10 @@
 #include <stdio.h>
 #include <assert.h>
 
-#include "../HFiles/defbool.h"
-#include "../HFiles/clblas_stddef.h"
+#include <defbool.h>
+#include <clblas_stddef.h>
 
-#include "../HFiles/blas_kgen.h"
+#include "blas_kgen.h"
 
 // assign tile's base name to 'name' if it is assigned to zero pointer
 static __inline void

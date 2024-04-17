@@ -22,9 +22,9 @@
 
 #include <sys/types.h>
 #include <assert.h>
-#include "../HFiles/clblas_stddef.h"
+#include <clblas_stddef.h>
 
-#include "../HFiles/blas_kgen.h"
+#include "blas_kgen.h"
 
 static __inline bool
 checkSizeStepRelation(size_t size, size_t step)

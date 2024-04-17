@@ -16,8 +16,8 @@
 
 
 #include <stdio.h>
-#include "../HFiles/clblas_stddef.h"
-#include "../HFiles/xxmv_common.h"
+#include <clblas_stddef.h>
+#include "xxmv_common.h"
 
 static void
 genMul(char *buf, size_t val, const char* type, const char* sum, const char* mul)

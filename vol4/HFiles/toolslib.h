@@ -19,7 +19,7 @@
 #define TOOLSLIB_H__
 
 #ifdef __APPLE__
-#include <OpenCL/cl.h>
+#include "cl.h"
 #else
 #include "cl.h"
 #endif

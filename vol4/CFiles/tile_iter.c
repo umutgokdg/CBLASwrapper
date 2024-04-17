@@ -16,7 +16,7 @@
 
 #include <errno.h>
 #include <assert.h>
-#include "../HFiles/tile_iter.h"
+#include "tile_iter.h"
 
 // Translate coordiates in physical memory block
 // into logical tile coordinates

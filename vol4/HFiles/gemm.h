@@ -18,7 +18,7 @@
 #ifndef KTEST_GEMM_H__
 #define KTEST_GEMM_H__
 
-#include "../step.h"
+#include "step.h"
 
 namespace clMath {
 

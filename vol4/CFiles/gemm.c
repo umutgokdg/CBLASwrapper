@@ -24,15 +24,15 @@
 #include <stdlib.h>
 #include <assert.h>
 
-#include "../HFiles/clblas_stddef.h"
-#include "../HFiles/clBLAS.h"
-#include "../HFiles/blas_mempat.h"
-#include "../HFiles/clkern.h"
-#include "../HFiles/clblas-internal.h"
+#include <clblas_stddef.h>
+#include <clBLAS.h>
+#include <blas_mempat.h>
+#include <clkern.h>
+#include <clblas-internal.h>
 
-#include "../HFiles/blas_kgen.h"
-#include "../HFiles/blas_subgroup.h"
-#include "../HFiles/gen_helper.h"
+#include "blas_kgen.h"
+#include "blas_subgroup.h"
+#include "gen_helper.h"
 
 typedef struct {
     size_t staggered;

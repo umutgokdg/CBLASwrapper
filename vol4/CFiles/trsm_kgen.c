@@ -16,7 +16,7 @@
 
 
 #include <stdio.h>
-#include "../HFiles/trsm_kgen.h"
+#include "trsm_kgen.h"
 
 void
 genComplexMathOperators(

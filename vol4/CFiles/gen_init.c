@@ -19,10 +19,10 @@
  * Generators initialization
  */
 
-#include "../HFiles/blas_mempat.h"
+#include <blas_mempat.h>
 
-#include "../HFiles/clblas-internal.h"
-#include "../HFiles/init.h"
+#include "clblas-internal.h"
+#include "init.h"
 
 unsigned int
 initGemmMemPatterns(MemoryPattern *mempats)

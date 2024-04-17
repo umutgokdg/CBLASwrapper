@@ -16,8 +16,8 @@
 
 
 #include <stdio.h>
-#include "../HFiles/gen_helper.h"
-#include "../HFiles/clblas_stddef.h"
+#include "gen_helper.h"
+#include "clblas_stddef.h"
 
 #define IDX_INVAL ((unsigned int)-1)
 

@@ -21,19 +21,19 @@
 #ifdef __APPLE__
 #include <OpenCL/cl.h>
 #else
-#include <CL/cl.h>
+#include "cl.h"
 #endif
 #include <list>
 #include <map>
 #include <string>
 
-#include <clblas-internal.h>
-#include <blas_funcs.h>
-#include <granulation.h>
-#include <kernel_extra.h>
-#include <solution_seq.h>
-#include <mempat.h>
-#include <list.h>
+#include "clblas-internal.h"
+#include "blas_funcs.h"
+#include "granulation.h"
+#include "kernel_extra.h"
+#include "solution_seq.h"
+#include "mempat.h"
+#include "list.h"
 #include "var.h"
 
 namespace clMath {

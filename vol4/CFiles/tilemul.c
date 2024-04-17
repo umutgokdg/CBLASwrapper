@@ -18,16 +18,15 @@
 #include <stdio.h>
 #include <string.h>
 #include <assert.h>
+
+#include <defbool.h>
+#include <clblas_stddef.h>
 #include <sys/types.h>
+#include <kerngen.h>
+#include <matrix_dims.h>
+#include <dis_warning.h>
 
-#include "../HFiles/defbool.h"
-#include "../HFiles/clblas_stddef.h"
-
-#include "../HFiles/kerngen.h"
-#include "../HFiles/matrix_dims.h"
-#include "../HFiles/dis_warning.h"
-
-#include "../HFiles/blas_kgen.h"
+#include "blas_kgen.h"
 
 
 #define MAX_LENGTH 4096
